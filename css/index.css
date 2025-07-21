@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+h1,
+h2,
+p,
+li,
+button {
+    animation: fadeInDown 1s ease-in-out;
+}
