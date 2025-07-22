@@ -1,0 +1,322 @@
+.navbar-nav .nav-link {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0;
+    padding: 20px;
+    transition: color 0.3s ease;
+
+}
+
+.navbar .container.small a,
+.offcanvas a {
+    font-size: 14px;
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    z-index: 1020;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+/* .logo {} */
+
+.navbar-nav {
+  position: relative;
+}
+
+.navbar-nav .underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #F57C00;
+  transition: left 0.3s ease, width 0.3s ease;
+  width: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .btn-outline-light,
+.offcanvas .btn-outline-light {
+    width: 197px;
+    height: 48px;
+    gap: 12px;
+    opacity: 1;
+    border-radius: 100px;
+    padding-right: 32px;
+    padding-left: 32px;
+    background: linear-gradient(96.8deg, #F57C00 0.32%, #FFA84E 47.92%, #F57C00 100.32%);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 48px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.navbar .btn-outline-light:hover,
+.offcanvas .btn-outline-light:hover {
+    background: linear-gradient(96.8deg, #F57C00 100.32%);
+    transform: scale(1.03);
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .container .nav-link.active {
+    color: #F57C00;
+}
+
+.dropdown {
+    width: 6.5px;
+    height: 6.5px;
+    border-bottom: 1px solid #1C1C1C;
+    border-right: 1px solid #1C1C1C;
+    transform: rotate(45deg);
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.nav-link.active .dropdown {
+    border-bottom: 1px solid #F57C00;
+    border-right: 1px solid #F57C00;
+}
+
+.nav-link.open .dropdown {
+  transform: rotate(226deg); 
+}
+
+.dropdown-menu {
+    background: #FFFFFFCC;
+    border: none;
+    opacity: 1;
+    padding: 24px 16px;
+}
+
+.dropdown-menu li a {
+    color: #1C1C1C;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0;
+    padding: 16px 10px;
+    border-radius: 10px;
+}
+
+.dropdown-menu li a:hover {
+    background: linear-gradient(96.8deg, #F57C00 0.32%, #FFA84E 47.92%, #F57C00 100.32%);
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar.scrolled {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.scrolled .navbar-nav .nav-link {
+    color: #11142D;
+}
+
+.navbar.scrolled .btn-outline-light {
+    border-color: #000;
+    color: #000;
+}
+
+.navbar.scrolled .dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+/* ------------ OFFCANVAS SIDEBAR (mobile) ------------------------------ */
+.offcanvas {
+    background: linear-gradient(96.8deg, #F57C00 0.32%, #FFA84E 47.92%, #F57C00 100.32%);
+    color: white;
+}
+
+.offcanvas .navbar-nav .nav-link {
+    text-align: start;
+}
+
+.offcanvas .dropdown-menu {
+    background-color: transparent;
+    transform: none !important;
+    padding: 0 16px;
+}
+
+.offcanvas .dropdown-menu a {
+    font-size: 17px;
+    padding: 5px;
+}
+
+.offcanvas .nav-link,
+.offcanvas .dropdown-item,
+.offcanvas a {
+    color: white;
+}
+
+.offcanvas .dropdown-item:hover {
+    background-color: #01406c;
+}
+
+.offcanvas .dropdown-item:hover {
+    background-color: #01406c;
+}
+
+.offcanvas .dropdown, 
+.offcanvas .dropdown.active {
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.dropdown-toggle-icon {
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+}
+
+svg.burger {
+    border-radius: 4px;
+}
+
+.offcanvas .btn-outline-light {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1399px) {
+    .navbar-nav .nav-link {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .logo {
+        width: 250px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .container-fluid {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 100px;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .navbar-collapse {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar .btn-outline-light {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .navbar .container-fluid {
+        padding: 0 200px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: #023A78;
+        padding: 15px;
+        order: 3;
+        flex-basis: 100%;
+    }
+
+    .navbar-collapse.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        text-align: left;
+        order: 1;
+        margin-right: 0;
+    }
+
+    .navbar .btn-outline-light {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .container-fluid {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .navbar-nav .nav-item {
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+
+    .navbar.scrolled .navbar-collapse {
+        background-color: #ffffff;
+    }
+
+    .navbar.scrolled .navbar-nav .nav-link {
+        color: #11142D;
+    }
+
+    .navbar.scrolled .navbar .btn-outline-light {
+        border: 1px solid #EDFF8166;
+        color: #000;
+    }
+}
+
+@media (max-width: 771px) {
+    .logo {
+        width: 170px;
+        height: auto;
+    }
+}
