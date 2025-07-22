@@ -1,0 +1,65 @@
+.hero-sec {
+    padding: 250px 12px 140px;
+}
+
+.hero-sec p {
+    font-size: 20px;
+    width: 70%;
+}
+
+.hero-sec .btn-outline-light {
+    width: 263px;
+}
+
+.explore-products-btn {
+    width: 235px;
+    height: 48px;
+    opacity: 1;
+    gap: 12px;
+    border-radius: 100px;
+    padding: 0 32px;
+    border: 2px solid #1C1C1C;
+    color: #1C1C1C;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 48px;
+    letter-spacing: 0;
+}
+
+.explore-products-btn:hover {
+    transition: all 0.3s ease;
+    border: 2px solid #1C1C1C;
+    color: #1C1C1C;
+    transform: scale(1.03);
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 991px) {
+    .hero-sec {
+        padding-top: 170px;
+    }
+
+    .hero-sec p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 771px) {
+    .hero-sec h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-sec {
+        padding-top: 100px;
+    }
+
+    .hero-sec h1 {
+        font-size: 30px;
+    }
+    
+    .hero-sec p {
+        font-size: 18px;
+    }
+}
