@@ -1,0 +1,46 @@
+.line-sec {
+    height: auto;
+    background: #F57C00;
+    padding: 20px 40px;
+    overflow: hidden;
+}
+
+.line-inner {
+    overflow-x: hidden;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.line-sec h3 {
+    height: 46px;
+    padding: 0px 20px;
+    margin: 0;
+    border-right: 1px solid #FFFFFF;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 200%;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .line-sec h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 771px) {
+    .line-sec {
+        padding: 10px;
+    }
+
+    .line-sec h3 {
+        padding: 10px;
+    }
+
+    .line-sec h3 {
+        font-size: 14px;
+    }
+}

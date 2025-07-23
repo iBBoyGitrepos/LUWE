@@ -52,14 +52,14 @@
 
 @media (max-width: 500px) {
     .hero-sec {
-        padding-top: 100px;
+        padding: 100px 12px 80px;
     }
 
     .hero-sec h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
     
     .hero-sec p {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
