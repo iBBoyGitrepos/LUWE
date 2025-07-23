@@ -1,0 +1,10 @@
+.industrysolutions-sec {
+    padding: 120px 12px 0;
+}
+
+@media (max-width: 991px) {
+    .industrysolutions-sec button {
+        width: 190px;
+        padding: 6px;
+    }
+}

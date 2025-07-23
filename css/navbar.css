@@ -122,6 +122,10 @@
     background-color: #f8f9fa;
 }
 
+.navbar .btn-outline-light {
+    width: 197px;
+}
+
 /* ------------ OFFCANVAS SIDEBAR (mobile) ------------------------------ */
 .offcanvas {
     background: linear-gradient(96.8deg, #F57C00 0.32%, #FFA84E 47.92%, #F57C00 100.32%);
