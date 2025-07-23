@@ -1,3 +1,12 @@
 .ourproductrange-sec {
     padding: 120px 12px 0;
 }
+
+.ourproductrange-sec .card {
+    box-shadow: none;
+}
+
+.ourproductrange-sec .card.dark {
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 14px 0px #00000040;
+}

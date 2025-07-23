@@ -91,7 +91,6 @@ p {
 
 .action-btn {
     background: #F57C00;
-    /* width: 261px; */
 }
 
 .btn-outline-light:hover,
@@ -110,6 +109,7 @@ p {
     background-color: #FFFFFF;
     border: none;
     border-radius: 20px;
+    box-shadow: 0px 4px 14px 0px #00000040;
 }
 
 .card.dark {
