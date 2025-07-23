@@ -1,0 +1,29 @@
+.damperdiagram-sec {
+    padding: 120px 12px 0;
+}
+
+.damperdiagram-sec .line-sec {
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+@media (max-width: 1024px) {
+    .damperdiagram-sec .line-sec {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 771px) {
+    .damperdiagram-sec .line-sec {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 500px) {
+    .damperdiagram-sec .line-sec {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
