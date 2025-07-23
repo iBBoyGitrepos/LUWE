@@ -32,7 +32,29 @@ h1 {
     text-align: center;
 }
 
+h4 {
+    color: #1C1C1C;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+h2 {
+    color: #1C1C1C;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+
 p {
+    width: 53%;
+    margin: auto;
     color: #1C1C1C;
     font-weight: 500;
     font-style: normal;
@@ -42,7 +64,8 @@ p {
     text-align: center;
 }
 
-.btn-outline-light {
+.btn-outline-light,
+.action-btn {
     width: 197px;
     height: 48px;
     gap: 12px;
@@ -66,9 +89,25 @@ p {
     transition: all 0.3s ease;
 }
 
-.btn-outline-light:hover {
+.btn-outline-light:hover,
+.action-btn:hover {
     background: linear-gradient(96.8deg, #F57C00 100.32%);
     transform: scale(1.03);
     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.15);
     color: #464646;
+}
+
+.action-btn:hover {
+    background: #F57C00;
+}
+
+.action-btn {
+    background: #F57C00;
+    width: auto;
+}
+
+@media (max-width: 991px) {
+    p {
+        width: 100%;
+    }
 }
