@@ -1,0 +1,29 @@
+.customization-sec {
+    padding: 120px 12px 0;
+}
+
+.customization-sec h1,
+.customization-sec h4 {
+    text-align: start;
+}
+
+.customization-sec button {
+    width: 261px;
+}
+
+.customization-sec .tool {
+    width: 50%;
+}
+
+@media (max-width: 991px) {
+    .customization-sec .tool {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .customization-sec button {
+        width: 220px;
+        padding: 6px;
+    }
+}
