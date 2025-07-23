@@ -1,0 +1,22 @@
+.brandlogos-sec {
+    padding: 120px 12px 0;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-bottom: 5px;
+}
+
+.brandlogos-sec .line-sec {
+    background-color: transparent;
+    padding: 60px 0;
+}
+
+@media (max-width: 991px) {
+    .brandlogos-sec img {
+        width: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .brandlogos-sec {
+        padding: 40px 0 0;
+    }
+}
